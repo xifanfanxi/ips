@@ -1,0 +1,351 @@
+proxies:
+  - name: US
+    server: 15.204.87.225
+    port: 7306
+    type: ss
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: US
+    server: 15.204.87.225
+    port: 7307
+    type: ss
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: US
+    server: 15.204.87.222
+    port: 2375
+    type: ss
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: US
+    server: 15.204.87.217
+    port: 8118
+    type: ss
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+  - name: US
+    server: 15.204.87.225
+    port: 5003
+    type: ss
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: US
+    server: 15.204.87.225
+    port: 8000
+    type: ss
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: US
+    server: 15.204.87.225
+    port: 9090
+    type: ss
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: GB
+    server: sareikela.com
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sareikela.com
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: sareikela.com
+  - name: US
+    server: 15.204.87.225
+    port: 8090
+    type: ss
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: US
+    server: harriscity.com
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: harriscity.com
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: harriscity.com
+  - name: US
+    server: 15.204.87.222
+    port: 5004
+    type: ss
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: US
+    server: 15.204.87.225
+    port: 7002
+    type: ss
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: CA
+    server: capellare.com
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: capellare.com
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: capellare.com
+  - name: US
+    server: 15.204.87.222
+    port: 5499
+    type: ss
+    cipher: aes-256-gcm
+    password: lGqs95QkFHo2NV
+  - name: US
+    server: 15.204.87.222
+    port: 5498
+    type: ss
+    cipher: aes-256-gcm
+    password: lGqs95QkFHo2NV
+  - name: US
+    server: 15.204.87.217
+    port: 6379
+    type: ss
+    cipher: aes-256-gcm
+    password: zDNVedRFPQexG9v
+  - name: US
+    server: 15.204.87.225
+    port: 8118
+    type: ss
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+  - name: US
+    server: 15.204.87.225
+    port: 5499
+    type: ss
+    cipher: aes-256-gcm
+    password: lGqs95QkFHo2NV
+  - name: US
+    server: 15.204.87.222
+    port: 8080
+    type: ss
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: US
+    server: 15.204.87.217
+    port: 5499
+    type: ss
+    cipher: aes-256-gcm
+    password: lGqs95QkFHo2NV
+  - name: US
+    server: 15.204.87.217
+    port: 6697
+    type: ss
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: US
+    server: cake.capellare.com
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cake.capellare.com
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: cake.capellare.com
+  - name: US
+    server: 15.204.87.222
+    port: 8009
+    type: ss
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: FR
+    server: gt021.bestforxray.buzz
+    port: 443
+    type: vmess
+    uuid: c1fd780a-3408-4f48-a932-5832a28ce9f6
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /linkws
+      headers:
+        Host: ausgt02.bestforxray.buzz
+  - name: GB
+    server: f.khilei.com
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: f.khilei.com
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: f.khilei.com
+  - name: US
+    server: 15.204.87.222
+    port: 5601
+    type: ss
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: US
+    server: 15.204.87.217
+    port: 8000
+    type: ss
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: US
+    server: 15.204.87.222
+    port: 5500
+    type: ss
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: US
+    server: 15.204.87.215
+    port: 8882
+    type: ss
+    cipher: aes-256-gcm
+    password: kDWvXYZoTBcGkC4
+  - name: US
+    server: 15.204.87.222
+    port: 5001
+    type: ss
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: US
+    server: 15.204.87.222
+    port: 8091
+    type: ss
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: US
+    server: 15.204.87.222
+    port: 7002
+    type: ss
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: US
+    server: 15.204.87.217
+    port: 5600
+    type: ss
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: US
+    server: 154.3.8.151
+    port: 30067
+    type: ss
+    cipher: aes-256-gcm
+    password: iUB0923RBA
+  - name: US
+    server: japan.com
+    port: 2086
+    type: vmess
+    uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: ip1.1789034.xyz
+  - name: GB
+    server: 54.37.18.75
+    port: 5500
+    type: ss
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: US
+    server: 69.50.92.99
+    port: 6379
+    type: ss
+    cipher: aes-256-gcm
+    password: zDNVedRFPQexG9v
+  - name: US
+    server: 69.50.92.99
+    port: 8882
+    type: ss
+    cipher: aes-256-gcm
+    password: kDWvXYZoTBcGkC4
+  - name: US
+    server: 192.210.231.217
+    port: 80
+    type: vmess
+    uuid: 19d01a72-b30e-40d3-e87b-d16114368040
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /aa
+  - name: US
+    server: 147.45.124.227
+    port: 30488
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: njcP7IKazMOv4YIsb8rGsX
+  - name: US
+    server: 184.170.241.194
+    port: 443
+    type: ssr
+    cipher: aes-128-cfb
+    password: shadowsocks
+    protocol: origin
+    obfs: plain
+    protocol-param: ''
+    obfs-param: ''
+  - name: US
+    server: 69.50.92.71
+    port: 443
+    type: ss
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: PL
+    server: max.mankadmu.com
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: max.mankadmu.com
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: max.mankadmu.com
+  - name: US
+    server: 169.197.142.120
+    port: 8888
+    type: ss
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: US
+    server: 169.197.142.120
+    port: 3389
+    type: ss
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
